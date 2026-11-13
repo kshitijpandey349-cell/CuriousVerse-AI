@@ -1,0 +1,1 @@
+"""CURIOUSVERSE AI STUDIO application package."""
