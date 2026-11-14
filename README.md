@@ -33,6 +33,10 @@ Alternative without activation:
 
 ## Tests
     python -m pytest
+    # or: pytest   (pytest.ini puts the repo root on the import path)
+
+## Local-only dashboard
+`.streamlit/config.toml` binds Streamlit to `localhost` and disables usage statistics. The sidebar and `python -m app.main` list which optional integrations (FFmpeg, Piper, whisper.cpp, YouTube OAuth) are configured.
 
 ## Security
 Never commit .env, Google OAuth client secrets, refresh tokens or access tokens. Never share Google passwords or tokens in chat. Use official Google OAuth and YouTube Data API. Start with private/unlisted uploads.
