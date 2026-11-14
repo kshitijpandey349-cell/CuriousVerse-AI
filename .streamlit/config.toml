@@ -1,1 +1,6 @@
+[server]
+address = "localhost"
+headless = false
 
+[browser]
+gatherUsageStats = false
